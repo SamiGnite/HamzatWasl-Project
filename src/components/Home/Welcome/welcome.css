@@ -1,0 +1,84 @@
+.welcome-container {
+  height: 100%;
+  width: 100%;
+  background-color: #29d663;
+  display: flex;
+  flex-direction: row;
+  min-height: fit-content;
+  position: relative;
+  border-bottom-left-radius: 200px 50%;
+  overflow: hidden;
+  
+}
+
+.home-left {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  margin: 40px 250px;
+}
+.home-left h1 {
+  font-size: 50px;
+}
+.home-left .explanation {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+.tutorial {
+  font-size: 20px;
+}
+
+.tutorial i {
+  color: white;
+  padding: 8px;
+}
+
+.home-picture {
+  background-image: url(../../../utils/images/background.png);
+  display: flex;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  height: 525px;
+  width: 602px;
+  padding: 20px;
+  margin-bottom: 20px;
+  /* outline: 2px solid black; */
+}
+
+.home-picture-background {
+  height: 70%;
+  width: 85%;
+  padding: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../../../utils/images/image.png);
+  transform: translateX(20px);
+}
+
+@media screen and (max-width: 1110px) {
+  .welcome-container {
+    height: 100%;
+    width: 100%;
+    background-color: #29d663;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-picture {
+    height: 350px;
+    width: 400px;
+  }
+
+  .home-left {
+    margin: 40px 20px;
+  }
+
+  .home-left h1 {
+    font-size: 30px;
+  }
+}

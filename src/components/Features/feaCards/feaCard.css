@@ -1,0 +1,46 @@
+.feacard{
+    height: 300px;
+    width: 350px;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.title-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center; 
+    text-align: left;
+    margin-bottom: 20px;
+}
+.feature-icon{
+    /* border: 2px solid black; */
+    transform: scale(2.0);
+    border-radius: 5px;
+    background-color: grey;
+    color: white;
+    padding: 4px 8px;
+    background-size: cover;
+    margin: 10px 25px;
+    
+}
+
+.title-icon span {
+    margin-left: 0px;
+    opacity: 80%;
+}
+
+.feacard-info {
+    margin-left: 20px ;
+    font-size: 16px;
+    opacity: 90%;
+}
+
+@media screen and (max-width: 1180px) {
+.feacard{
+    transform: scale(1);
+}
+}

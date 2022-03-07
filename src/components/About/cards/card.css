@@ -1,0 +1,47 @@
+.card-shape {
+  height: 300px;
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  margin: 10px 100px;
+}
+
+.card-icon {
+    /* border: 2px solid black; */
+    height: fit-content;
+    transform: scale(1.7);
+    margin: 8px 4px ;
+    color: black;
+    
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.card-info h3 {
+  text-align: left;
+  margin-left: 20px;
+  font-size: 35px;
+  opacity: 75%;
+}
+
+.card-info span {
+  text-align: left;
+  font-size: 17px;
+  opacity: 90%;
+}
+
+@media screen and (max-width: 1110px) {
+  .card-shape {
+  height: 150px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 0px;
+  margin: 20px;
+} 
+}
